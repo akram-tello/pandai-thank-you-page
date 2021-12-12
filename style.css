@@ -23,6 +23,11 @@ body  {
   margin: 10px;           
 }
 
+@media only screen and (max-width: 600px) {
+    .wrapperCard {
+        height: 600px;
+    }
+  }
 .topHalf {
   width: 100%;
   color: white;
@@ -203,10 +208,6 @@ button:hover {
     color: #000;
 }
 
-/* .social-menu ul li .fab:hover{
-    color: #fff;
-} */
-
 .social-menu ul li a{
     position: relative;
     display: block;
@@ -222,16 +223,3 @@ button:hover {
 .social-menu ul li a:hover{
     transform: translate(0, -10%);
 }
-/* 
-.social-menu ul li:nth-child(1) a:hover{
-    background-color: rgba(0, 0, 0, 0.829);
-}
-.social-menu ul li:nth-child(2) a:hover{
-    background-color: #E4405F;
-}
-.social-menu ul li:nth-child(3) a:hover{
-    background-color: #0077b5;
-}
-.social-menu ul li:nth-child(4) a:hover{
-    background-color: #000;
-} */
