@@ -28,7 +28,7 @@ body  {
         height: 650px;
     }
     .d-none-mobile {
-        display: none;
+        display: none !important;
     }
   }
 .topHalf {
