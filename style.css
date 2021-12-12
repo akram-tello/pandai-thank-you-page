@@ -15,8 +15,8 @@ body  {
 }        
 
 .wrapperCard {
-  width: 600px;
-  height: 565px;
+  width: 650px;
+  height: 580px;
   overflow: hidden;
   border-radius: 12px;
   border: thin solid #ddd;
@@ -25,7 +25,7 @@ body  {
 
 @media only screen and (max-width: 600px) {
     .wrapperCard {
-        height: 600px;
+        height: 650px;
     }
   }
 .topHalf {
